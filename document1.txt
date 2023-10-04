@@ -27,8 +27,8 @@ def quicksort(l, r, nums):
         quicksort(pi+1, r, nums)  # Recursively sorting the right values
     return nums
  
- 
-example = [4, 1, 2, 3, 5]
+
+example = [3, 5, 3, 2, 4]
 result = [1, 2, 3, 4, 5]
 print(quicksort(0, len(example)-1, example))
  
